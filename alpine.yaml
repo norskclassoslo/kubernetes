@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: alpine
+  name: alpine2
   namespace: default
 spec:
   containers:
-  - name: alpine
+  - name: alpine2
     image: alpine
     command:
       - sleep
